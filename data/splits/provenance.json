@@ -1,0 +1,36 @@
+{
+  "source_sha256": "22c8432af7ae9f5f647a932c0ae4358d04d4398b4ca466863d8c03f33bd97497",
+  "rule_version": "car-capability-rules-v1",
+  "split_seed": 20260723,
+  "dev_fraction": 0.1,
+  "input_count": 5701,
+  "excluded_test_overlap_count": 0,
+  "eligible_count": 5701,
+  "train_count": 5131,
+  "dev_count": 570,
+  "unique_image_count": 4042,
+  "duplicate_image_count": 905,
+  "duplicate_pair_count": 0,
+  "test_hash_files_resolved": 0,
+  "test_hash_unique": 0,
+  "test_hash_overlap_count": 0,
+  "leakage_guarantee": "content-hash checked only for resolved test-image roots",
+  "train_capabilities": {
+    "relation_action": 2076,
+    "attribute": 3065,
+    "existence": 3780,
+    "relation_spatial": 2330,
+    "general": 347,
+    "relation_comparison": 562
+  },
+  "dev_capabilities": {
+    "relation_spatial": 259,
+    "attribute": 340,
+    "existence": 420,
+    "relation_action": 231,
+    "relation_comparison": 62,
+    "general": 38
+  },
+  "train_sha256": "0c936a74528e4d7a7e57eb8b3c42f0b7d16c1175ebfcb627a3a8e6be682b1052",
+  "dev_sha256": "e5a377a262033d928990421b7f7bc15b61ee5556c7ac07b5ddf07cd51ebedbe2"
+}

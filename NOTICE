@@ -1,0 +1,13 @@
+CAR-PreDPO source release
+
+The bundled LLaMA-Factory code is derived from hiyouga/LLaMA-Factory
+and retains its original Apache-2.0 license and source copyright notices.
+Local reference commit: c5aecaf31de46ace2a7bc243810b995957b84c0b
+This is a modified source snapshot, not an unmodified upstream checkout.
+Changes include CAR preference margins, extra dataset/collator fields,
+multimodal scoring, dtype compatibility, and additional trainer variants.
+Release preparation changes are described in docs/RELEASE_NOTES.md.
+
+Original CAR-PreDPO additions in this release are distributed under
+Apache-2.0 (see LICENSE). Third-party datasets, model weights, and
+benchmark assets are not included and retain their own licenses.

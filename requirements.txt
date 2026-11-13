@@ -1,0 +1,6 @@
+# Install a CUDA-compatible torch/torchvision pair first; then install this file.
+-e ./LLaMA-Factory
+qwen-vl-utils==0.0.14
+deepspeed==0.19.2
+Pillow==11.3.0
+scipy==1.17.1
